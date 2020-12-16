@@ -1,0 +1,10 @@
+1.S se realizeze o ierarhie de clase care descrie mulimea elementelor din plan întâlnite
+în geometrie. Se consider clasa de baza CPunct , din ea se deriveaz clasa CDreapta ,
+clasa CCerc , clasa CDreptunghi i clasa CPatrat .Pentru clasele CCerc, CDreptunghi i
+CPatrat s se implementeze o funcie de calcul a ariei i o funcie pentru calculul
+perimetrului.
+2.S se construiasc o ierarhie de clase care s descrie rasele de câini.Se consider clas
+de baz Caine , din ea se deriveaz clasa CaineCuPete , clasa CaineFaraPete . Despre un
+câine se cunosc : nume, înlime, greutate, vârsta, culoare. Despre câinii cu pete se tie, în
+plus, i numrul de pete. S se defineasc pentru fiecare clas o funcie membru pentru
+citirea datelor, respectiv una pentru afiare. 
