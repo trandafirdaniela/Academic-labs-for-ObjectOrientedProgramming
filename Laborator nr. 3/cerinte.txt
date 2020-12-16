@@ -1,0 +1,37 @@
+5. S se proiecteze i s se implementeze o clas pentru standardul ISBN
+(International Standard Book Number). Un obiect din aceast clas este un 
+numr ISBN unic asociat unei cari sau reviste, format din 10 cifre
+zecimale grupate în patru secvene de dimensiune variabila:
+• grupul sau identificatorul de ar, pentru identificarea rii editurii
+care a publicat cartea sau revista; în mod uzual toate editurile dintro anumit ar sau regiune geografic au acelai numr pentru
+grup;
+• identificatorul editurii, pentru identificarea editurii în cadrul
+grupului de edituri;
+• identificatorul de titlu, pentru identificarea titlului unei cari sau
+reviste editat de o editur;
+• cifra de control, care este întotdeauna format dintr-o singur cifr.
+Spre deosebire de celelalte grupuri, cifra de control poate s fie atât o cifr
+zecimal sau litera X, corespunzând numrului 10. Cifra de control se
+determin ca valoarea modulo 11 din numrul obinut prin concatenarea
+tuturor celorlalte 9 cifre. Clasa va avea ca dat membru un ir de caractere
+ce va reprezenta ISBN-ul, utilizând caracterul ‘-‘ pentru separarea celor
+patru grupuri. Ea va trebui s conin cel puin urmtoarele funcii
+membru:
+• un constructor, în cazul specificrii doar a primelor trei grupuri,
+cifra de control fiind generat automat;
+• un constructor, pentru cazul în care se specific complet ISBN-ul,
+ca ir de 13 caractere;
+• o funcie membru pentru validarea cifrei de control;
+• o funcie membru pentru afiarea ISBN-ului.
+6. S se proiecteze i s se implementeze o clas pentru reprezentarea
+crilor dintr-o bibliotec. Pentru fiecare carte trebuie specificate:
+• titlul carii;
+• autorul (autorii);
+• editura;
+• numrul ISBN (ir de caractere);
+• anul apariiei;
+• preul.
+Programul va permite crearea unui tablou cu crile dintr-o bibliotec i
+posibilitatea de cutare a unor cri în funcie de: titlu, editura, sau ISBN.
+Funciile clasei vor fi scrise astfel încât s permit operaiile menionate
+mai sus. 
