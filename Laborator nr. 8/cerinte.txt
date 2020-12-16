@@ -1,0 +1,10 @@
+2. Să se realizeze o ierarhie de clase care descrie mulţimea elementelor din plan întâlnite
+în geometrie. Se consideră clasa de baza CPunct , din ea se derivează clasa CDreapta ,
+clasa CCerc , clasa CDreptunghi , clasa CPatrat. Pentru clasele CCerc, CDreptunghi şi
+CPatrat să se implementeze o funcţie pentru calcul perimetrului, funcţie ce va fi declarată
+ca funcţii virtuală în clasa de bază.
+3. Să se construiască o ierarhie de clase care să descrie rasele de câini. Se consideră clasa
+de bază Caine, iar din ea se derivează clasa CaineCuPete şi clasa CaineFaraPete. Despre
+un câine se cunosc următoarele informaţii: numele, înălţime, greutate, vârstă, culoare.
+Despre câinii cu pete se ştie şi numărul de pete. Să se defineasca pentru fiecare clasa o
+functie de citire a datelor, respectiv una de afisare; ambele functii vor fi functii virtuale. 
